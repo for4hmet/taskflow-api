@@ -1,0 +1,15 @@
+
+# Node.js bağımlılıkları
+node_modules/
+
+# Ortam değişkenleri
+.env
+.env.*
+
+# Log dosyaları
+*.log
+npm-debug.log*
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
