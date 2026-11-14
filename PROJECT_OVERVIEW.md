@@ -33,11 +33,13 @@ Her görev oluşturulduğunda sistem yeni bir ID atıyor. Böylece görevler bir
 
 Projede beş temel API endpoint'i geliştirdim.
 
-- **GET /tasks:** Sistemdeki bütün görevleri listeler.
-- **GET /tasks/:id:** Belirtilen ID'ye sahip görevin detaylarını getirir.
-- **POST /tasks:** Gönderilen bilgilerle yeni bir görev oluşturur.
-- **PUT /tasks/:id:** Daha önce oluşturulan bir görevin bilgilerini günceller.
-- **DELETE /tasks/:id:** Belirtilen görevi sistemden siler.
+
+- **GET** `/tasks`: Sistemdeki bütün görevleri listeler.
+- **GET** `/tasks/:id`: Belirtilen ID'ye sahip görevin detaylarını getirir.
+- **POST** `/tasks`: Gönderilen bilgilerle yeni bir görev oluşturur.
+- **PUT** `/tasks/:id`: Daha önce oluşturulan bir görevin bilgilerini günceller.
+- **DELETE** `/tasks/:id`: Belirtilen görevi sistemden siler.
+
 
 Bu işlemleri Postman üzerinden ayrı ayrı test ettim.
 
